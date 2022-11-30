@@ -1,12 +1,15 @@
+.bigCounter {
+text-align: center;
+margin-top: 20px;
+background-color: black;
+}
 
-/* 
-
-    You can write your own styles here...
+.bigCounter div{
+    display: inline-block;
+    font-size: 100px;
+    line-height: 100px;
+    background-color: black !important;
+    color:white;
+    padding: 10px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
